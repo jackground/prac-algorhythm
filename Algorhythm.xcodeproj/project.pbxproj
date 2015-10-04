@@ -14,6 +14,7 @@
 		AEC65C791BC0BD4E00A76CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC65C771BC0BD4E00A76CAD /* LaunchScreen.storyboard */; };
 		AEC65C841BC0BD4E00A76CAD /* AlgorhythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC65C831BC0BD4E00A76CAD /* AlgorhythmTests.swift */; };
 		AEC65C8F1BC0BD4E00A76CAD /* AlgorhythmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC65C8E1BC0BD4E00A76CAD /* AlgorhythmUITests.swift */; };
+		AEC65C9D1BC0C21F00A76CAD /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC65C9C1BC0C21F00A76CAD /* PlaylistDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AEC65C8A1BC0BD4E00A76CAD /* AlgorhythmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC65C8E1BC0BD4E00A76CAD /* AlgorhythmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorhythmUITests.swift; sourceTree = "<group>"; };
 		AEC65C901BC0BD4E00A76CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC65C9C1BC0C21F00A76CAD /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AEC65C6E1BC0BD4E00A76CAD /* AppDelegate.swift */,
 				AEC65C701BC0BD4E00A76CAD /* ViewController.swift */,
+				AEC65C9C1BC0C21F00A76CAD /* PlaylistDetailViewController.swift */,
 				AEC65C721BC0BD4E00A76CAD /* Main.storyboard */,
 				AEC65C751BC0BD4E00A76CAD /* Assets.xcassets */,
 				AEC65C771BC0BD4E00A76CAD /* LaunchScreen.storyboard */,
@@ -192,7 +195,6 @@
 				TargetAttributes = {
 					AEC65C6A1BC0BD4E00A76CAD = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 2H8A658E98;
 					};
 					AEC65C7E1BC0BD4E00A76CAD = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -258,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEC65C9D1BC0C21F00A76CAD /* PlaylistDetailViewController.swift in Sources */,
 				AEC65C711BC0BD4E00A76CAD /* ViewController.swift in Sources */,
 				AEC65C6F1BC0BD4E00A76CAD /* AppDelegate.swift in Sources */,
 			);
@@ -399,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Algorhythm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dripsand.Algorhythm;
@@ -410,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Algorhythm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dripsand.Algorhythm;
