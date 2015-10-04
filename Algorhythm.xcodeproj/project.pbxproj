@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEC65C6F1BC0BD4E00A76CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC65C6E1BC0BD4E00A76CAD /* AppDelegate.swift */; };
+		AEC65C711BC0BD4E00A76CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC65C701BC0BD4E00A76CAD /* ViewController.swift */; };
+		AEC65C741BC0BD4E00A76CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC65C721BC0BD4E00A76CAD /* Main.storyboard */; };
+		AEC65C761BC0BD4E00A76CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC65C751BC0BD4E00A76CAD /* Assets.xcassets */; };
+		AEC65C791BC0BD4E00A76CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC65C771BC0BD4E00A76CAD /* LaunchScreen.storyboard */; };
+		AEC65C841BC0BD4E00A76CAD /* AlgorhythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC65C831BC0BD4E00A76CAD /* AlgorhythmTests.swift */; };
+		AEC65C8F1BC0BD4E00A76CAD /* AlgorhythmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC65C8E1BC0BD4E00A76CAD /* AlgorhythmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEC65C801BC0BD4E00A76CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC65C631BC0BD4E00A76CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC65C6A1BC0BD4E00A76CAD;
+			remoteInfo = Algorhythm;
+		};
+		AEC65C8B1BC0BD4E00A76CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC65C631BC0BD4E00A76CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC65C6A1BC0BD4E00A76CAD;
+			remoteInfo = Algorhythm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEC65C6B1BC0BD4E00A76CAD /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC65C6E1BC0BD4E00A76CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEC65C701BC0BD4E00A76CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEC65C731BC0BD4E00A76CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC65C751BC0BD4E00A76CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC65C781BC0BD4E00A76CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC65C7A1BC0BD4E00A76CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC65C7F1BC0BD4E00A76CAD /* AlgorhythmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC65C831BC0BD4E00A76CAD /* AlgorhythmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorhythmTests.swift; sourceTree = "<group>"; };
+		AEC65C851BC0BD4E00A76CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC65C8A1BC0BD4E00A76CAD /* AlgorhythmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC65C8E1BC0BD4E00A76CAD /* AlgorhythmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorhythmUITests.swift; sourceTree = "<group>"; };
+		AEC65C901BC0BD4E00A76CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC65C681BC0BD4E00A76CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC65C7C1BC0BD4E00A76CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC65C871BC0BD4E00A76CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEC65C621BC0BD4E00A76CAD = {
+			isa = PBXGroup;
+			children = (
+				AEC65C6D1BC0BD4E00A76CAD /* Algorhythm */,
+				AEC65C821BC0BD4E00A76CAD /* AlgorhythmTests */,
+				AEC65C8D1BC0BD4E00A76CAD /* AlgorhythmUITests */,
+				AEC65C6C1BC0BD4E00A76CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC65C6C1BC0BD4E00A76CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC65C6B1BC0BD4E00A76CAD /* Algorhythm.app */,
+				AEC65C7F1BC0BD4E00A76CAD /* AlgorhythmTests.xctest */,
+				AEC65C8A1BC0BD4E00A76CAD /* AlgorhythmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC65C6D1BC0BD4E00A76CAD /* Algorhythm */ = {
+			isa = PBXGroup;
+			children = (
+				AEC65C6E1BC0BD4E00A76CAD /* AppDelegate.swift */,
+				AEC65C701BC0BD4E00A76CAD /* ViewController.swift */,
+				AEC65C721BC0BD4E00A76CAD /* Main.storyboard */,
+				AEC65C751BC0BD4E00A76CAD /* Assets.xcassets */,
+				AEC65C771BC0BD4E00A76CAD /* LaunchScreen.storyboard */,
+				AEC65C7A1BC0BD4E00A76CAD /* Info.plist */,
+			);
+			path = Algorhythm;
+			sourceTree = "<group>";
+		};
+		AEC65C821BC0BD4E00A76CAD /* AlgorhythmTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEC65C831BC0BD4E00A76CAD /* AlgorhythmTests.swift */,
+				AEC65C851BC0BD4E00A76CAD /* Info.plist */,
+			);
+			path = AlgorhythmTests;
+			sourceTree = "<group>";
+		};
+		AEC65C8D1BC0BD4E00A76CAD /* AlgorhythmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEC65C8E1BC0BD4E00A76CAD /* AlgorhythmUITests.swift */,
+				AEC65C901BC0BD4E00A76CAD /* Info.plist */,
+			);
+			path = AlgorhythmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC65C6A1BC0BD4E00A76CAD /* Algorhythm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC65C931BC0BD4E00A76CAD /* Build configuration list for PBXNativeTarget "Algorhythm" */;
+			buildPhases = (
+				AEC65C671BC0BD4E00A76CAD /* Sources */,
+				AEC65C681BC0BD4E00A76CAD /* Frameworks */,
+				AEC65C691BC0BD4E00A76CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algorhythm;
+			productName = Algorhythm;
+			productReference = AEC65C6B1BC0BD4E00A76CAD /* Algorhythm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEC65C7E1BC0BD4E00A76CAD /* AlgorhythmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC65C961BC0BD4E00A76CAD /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */;
+			buildPhases = (
+				AEC65C7B1BC0BD4E00A76CAD /* Sources */,
+				AEC65C7C1BC0BD4E00A76CAD /* Frameworks */,
+				AEC65C7D1BC0BD4E00A76CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC65C811BC0BD4E00A76CAD /* PBXTargetDependency */,
+			);
+			name = AlgorhythmTests;
+			productName = AlgorhythmTests;
+			productReference = AEC65C7F1BC0BD4E00A76CAD /* AlgorhythmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEC65C891BC0BD4E00A76CAD /* AlgorhythmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC65C991BC0BD4E00A76CAD /* Build configuration list for PBXNativeTarget "AlgorhythmUITests" */;
+			buildPhases = (
+				AEC65C861BC0BD4E00A76CAD /* Sources */,
+				AEC65C871BC0BD4E00A76CAD /* Frameworks */,
+				AEC65C881BC0BD4E00A76CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC65C8C1BC0BD4E00A76CAD /* PBXTargetDependency */,
+			);
+			name = AlgorhythmUITests;
+			productName = AlgorhythmUITests;
+			productReference = AEC65C8A1BC0BD4E00A76CAD /* AlgorhythmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC65C631BC0BD4E00A76CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DripSand;
+				TargetAttributes = {
+					AEC65C6A1BC0BD4E00A76CAD = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2H8A658E98;
+					};
+					AEC65C7E1BC0BD4E00A76CAD = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2H8A658E98;
+						TestTargetID = AEC65C6A1BC0BD4E00A76CAD;
+					};
+					AEC65C891BC0BD4E00A76CAD = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2H8A658E98;
+						TestTargetID = AEC65C6A1BC0BD4E00A76CAD;
+					};
+				};
+			};
+			buildConfigurationList = AEC65C661BC0BD4E00A76CAD /* Build configuration list for PBXProject "Algorhythm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC65C621BC0BD4E00A76CAD;
+			productRefGroup = AEC65C6C1BC0BD4E00A76CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC65C6A1BC0BD4E00A76CAD /* Algorhythm */,
+				AEC65C7E1BC0BD4E00A76CAD /* AlgorhythmTests */,
+				AEC65C891BC0BD4E00A76CAD /* AlgorhythmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC65C691BC0BD4E00A76CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC65C791BC0BD4E00A76CAD /* LaunchScreen.storyboard in Resources */,
+				AEC65C761BC0BD4E00A76CAD /* Assets.xcassets in Resources */,
+				AEC65C741BC0BD4E00A76CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC65C7D1BC0BD4E00A76CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC65C881BC0BD4E00A76CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC65C671BC0BD4E00A76CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC65C711BC0BD4E00A76CAD /* ViewController.swift in Sources */,
+				AEC65C6F1BC0BD4E00A76CAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC65C7B1BC0BD4E00A76CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC65C841BC0BD4E00A76CAD /* AlgorhythmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC65C861BC0BD4E00A76CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC65C8F1BC0BD4E00A76CAD /* AlgorhythmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEC65C811BC0BD4E00A76CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC65C6A1BC0BD4E00A76CAD /* Algorhythm */;
+			targetProxy = AEC65C801BC0BD4E00A76CAD /* PBXContainerItemProxy */;
+		};
+		AEC65C8C1BC0BD4E00A76CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC65C6A1BC0BD4E00A76CAD /* Algorhythm */;
+			targetProxy = AEC65C8B1BC0BD4E00A76CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEC65C721BC0BD4E00A76CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC65C731BC0BD4E00A76CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEC65C771BC0BD4E00A76CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC65C781BC0BD4E00A76CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEC65C911BC0BD4E00A76CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEC65C921BC0BD4E00A76CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC65C941BC0BD4E00A76CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Algorhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dripsand.Algorhythm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEC65C951BC0BD4E00A76CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Algorhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dripsand.Algorhythm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEC65C971BC0BD4E00A76CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlgorhythmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dripsand.AlgorhythmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorhythm.app/Algorhythm";
+			};
+			name = Debug;
+		};
+		AEC65C981BC0BD4E00A76CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlgorhythmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dripsand.AlgorhythmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorhythm.app/Algorhythm";
+			};
+			name = Release;
+		};
+		AEC65C9A1BC0BD4E00A76CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlgorhythmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dripsand.AlgorhythmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Algorhythm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AEC65C9B1BC0BD4E00A76CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlgorhythmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dripsand.AlgorhythmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Algorhythm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC65C661BC0BD4E00A76CAD /* Build configuration list for PBXProject "Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC65C911BC0BD4E00A76CAD /* Debug */,
+				AEC65C921BC0BD4E00A76CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC65C931BC0BD4E00A76CAD /* Build configuration list for PBXNativeTarget "Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC65C941BC0BD4E00A76CAD /* Debug */,
+				AEC65C951BC0BD4E00A76CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEC65C961BC0BD4E00A76CAD /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC65C971BC0BD4E00A76CAD /* Debug */,
+				AEC65C981BC0BD4E00A76CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEC65C991BC0BD4E00A76CAD /* Build configuration list for PBXNativeTarget "AlgorhythmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC65C9A1BC0BD4E00A76CAD /* Debug */,
+				AEC65C9B1BC0BD4E00A76CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC65C631BC0BD4E00A76CAD /* Project object */;
+}
