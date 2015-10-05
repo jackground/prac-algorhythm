@@ -23,7 +23,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="sHA-ms-E6z" kind="push" id="25o-gf-VEY"/>
+                                    <segue destination="sHA-ms-E6z" kind="push" identifier="showPlaylistDetail" id="25o-gf-VEY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -71,6 +71,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="38R-IW-rUl"/>
+                    <connections>
+                        <outlet property="buttonPressLabel" destination="dTC-Bt-Gnk" id="fSI-lK-f3T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CzM-RJ-rez" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
