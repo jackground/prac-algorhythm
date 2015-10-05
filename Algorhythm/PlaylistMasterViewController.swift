@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PlaylistMasterViewController: UIViewController {
 
     @IBOutlet weak var aButton: UIButton!
     
@@ -23,10 +23,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func buttonPressed() {
-        view.backgroundColor = UIColor.orangeColor()
-    }
-
+    
 }
 

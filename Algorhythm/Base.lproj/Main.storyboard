@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="1jx-K4-cRK">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Playlists-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Algorhythm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PlaylistMasterViewController" customModule="Algorhythm" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -19,31 +19,34 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FfG-Gn-Uca">
                                 <rect key="frame" x="137" y="269" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
-                                    <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="sb9-MT-efJ"/>
+                                    <segue destination="sHA-ms-E6z" kind="push" id="25o-gf-VEY"/>
                                 </connections>
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="FfG-Gn-Uca" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RkK-k2-ZAO"/>
                             <constraint firstItem="FfG-Gn-Uca" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="v7M-yT-6Fi"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Playlists" id="BQn-3g-b7H"/>
                     <connections>
                         <outlet property="aButton" destination="FfG-Gn-Uca" id="o9h-gy-HTi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130.66666666666666" y="300.56666666666666"/>
+            <point key="canvasLocation" x="662" y="300"/>
         </scene>
-        <!--View Controller-->
+        <!--Artists-->
         <scene sceneID="wtA-N9-STo">
             <objects>
-                <viewController id="sHA-ms-E6z" sceneMemberID="viewController">
+                <viewController id="sHA-ms-E6z" customClass="PlaylistDetailViewController" customModule="Algorhythm" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TiC-VO-0e5"/>
                         <viewControllerLayoutGuide type="bottom" id="uoZ-6O-QLO"/>
@@ -51,13 +54,46 @@
                     <view key="view" contentMode="scaleToFill" id="ihc-Sz-fkt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You haven't pressed the button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTC-Bt-Gnk">
+                                <rect key="frame" x="41" y="273" width="238" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.62698072410000005" green="0.93141025639999997" blue="0.92568744290000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dTC-Bt-Gnk" firstAttribute="centerY" secondItem="ihc-Sz-fkt" secondAttribute="centerY" id="b8c-bA-hMB"/>
+                            <constraint firstItem="dTC-Bt-Gnk" firstAttribute="centerX" secondItem="ihc-Sz-fkt" secondAttribute="centerX" id="bZh-8S-Xhh"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Artists" id="38R-IW-rUl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CzM-RJ-rez" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="532" y="300"/>
+            <point key="canvasLocation" x="1064" y="300"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GMz-10-b0P">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1jx-K4-cRK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z8U-7F-mH7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CeE-PG-BAN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pgt-rM-g0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="300"/>
         </scene>
     </scenes>
 </document>
