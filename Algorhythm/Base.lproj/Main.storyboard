@@ -16,22 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FfG-Gn-Uca">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="ka3-o5-zo4">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
                                 <animations/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="6nh-TW-cbr"/>
+                                    <constraint firstAttribute="height" constant="200" id="wI8-4v-USt"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FfG-Gn-Uca">
+                                <rect key="frame" x="137" y="392" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="sHA-ms-E6z" kind="push" identifier="showPlaylistDetail" id="25o-gf-VEY"/>
                                 </connections>
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ka3-o5-zo4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FUL-m3-6Kw"/>
                             <constraint firstItem="FfG-Gn-Uca" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RkK-k2-ZAO"/>
-                            <constraint firstItem="FfG-Gn-Uca" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="v7M-yT-6Fi"/>
+                            <constraint firstItem="FfG-Gn-Uca" firstAttribute="top" secondItem="ka3-o5-zo4" secondAttribute="bottom" constant="8" id="pzL-tr-Rit"/>
+                            <constraint firstItem="ka3-o5-zo4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ri7-b4-PUf"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="BQn-3g-b7H"/>
@@ -99,4 +108,7 @@
             <point key="canvasLocation" x="245" y="300"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="coffee" width="53" height="107"/>
+    </resources>
 </document>
