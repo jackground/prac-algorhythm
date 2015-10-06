@@ -15,8 +15,36 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jN6-tV-6cu">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.1803921568627451" green="0.20392156862745098" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4o2-gQ-Wpm">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.12549019607843137" green="0.14117647058823529" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Icon" translatesAutoresizingMaskIntoConstraints="NO" id="zIz-5c-J3x">
+                                <rect key="frame" x="240" y="240" width="120" height="120"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4o2-gQ-Wpm" firstAttribute="height" secondItem="jN6-tV-6cu" secondAttribute="height" id="9vQ-nA-JCk"/>
+                            <constraint firstItem="4o2-gQ-Wpm" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="A5H-G2-rhj"/>
+                            <constraint firstAttribute="trailing" secondItem="jN6-tV-6cu" secondAttribute="trailing" id="DBQ-a4-SYG"/>
+                            <constraint firstItem="4o2-gQ-Wpm" firstAttribute="top" secondItem="jN6-tV-6cu" secondAttribute="bottom" id="HhD-Kg-R7K"/>
+                            <constraint firstAttribute="trailing" secondItem="4o2-gQ-Wpm" secondAttribute="trailing" id="Zyc-iw-ivC"/>
+                            <constraint firstItem="jN6-tV-6cu" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="qLD-Il-rU2"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="4o2-gQ-Wpm" secondAttribute="bottom" id="sHn-oo-vEh"/>
+                            <constraint firstItem="zIz-5c-J3x" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sJ2-5i-4ly"/>
+                            <constraint firstItem="jN6-tV-6cu" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="yoO-h3-wgv"/>
+                            <constraint firstItem="zIz-5c-J3x" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zir-5j-0gJ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +52,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Launch Icon" width="120" height="120"/>
+    </resources>
 </document>

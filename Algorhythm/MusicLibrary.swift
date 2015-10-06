@@ -36,7 +36,7 @@ struct MusicLibrary {
             "artists": ["Afrojack", "Kid Cudi", "Daft Punk", "Icona Pop", "Gesaffelstien", "Roksnoix", "deadmau5"]
         ],
         [
-            "title": "In The Zone",
+            "title": "In the Zone",
             "description": "Keep calm and focus. Shut out the noise around you and grind away with some mind sharpening instrumental tunes.",
             "icon": "laptop.pdf",
             "largeIcon": "laptop_large.pdf",
@@ -52,8 +52,8 @@ struct MusicLibrary {
             "artists": ["Skrillex", "The Game", "2 Chainz", "Jay Z", "T.I.", "Rihanna", "Eminem"]
         ],
         [
-            "title": "Futbal Remix",
-            "description": "There’s nothing like the world’s game. Kick around the field with this eclectic playlist from around the world. Futbal for life.",
+            "title": "Soccer Remix",
+            "description": "There’s nothing like the world’s game. Kick around the field with this eclectic playlist from around the world. Soccer for life.",
             "icon": "ball.pdf",
             "largeIcon": "ball_large.pdf",
             "backgroundColor": ["red": 255, "green": 102, "blue": 153, "alpha": 1.0],
